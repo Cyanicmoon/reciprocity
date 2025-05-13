@@ -12,13 +12,13 @@ html, body {
 
 .header-container{
   width: 100%;
-  height: 65px;
+  height: 85px;
   background-color: rgb(11, 11, 11);
   color: white;
   padding: 10px;
 }
 .header-container h1{
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   margin-left: 10px;
 }
@@ -29,14 +29,15 @@ html, body {
 
 .main-container{
   display: flex;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 85px);
 }
 
 
 .main-left-container{
   padding: 20px 20px 0 20px;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 85px);
   background-color: rgb(20, 20, 20);
+  box-sizing: border-box;
 }
 .main-left-container select {
   background-color: rgb(20, 20, 20);
@@ -64,4 +65,12 @@ select, button:focus {outline: none;}
 }
 .left-temp{
   display: flex;
+}
+
+.main-right-container{
+
+}
+.main-right-container h2{
+  margin-left: 20px;
+  font-size: 28px;
 }
