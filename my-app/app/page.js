@@ -7,7 +7,6 @@ export default function Home() {
       <header className="header-container">
         <h1>상반칙불궤 계산기</h1>
         <p>By Lati</p>
-        test
       </header>
       <Send></Send>
     </div>
