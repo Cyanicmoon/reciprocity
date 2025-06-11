@@ -40,6 +40,8 @@ export default function calc(){
             }}>
                 <option value="0" disabled hidden>필름 종류</option>
                 <option value="portra">Kodak Portra 160/400</option>
+                <option value="velvia">Fujifilm Velvia 50/100</option>
+                <option value="color">그 외 컬러 필름</option>
             </select>
             <select defaultValue={0} name="time" className="select-time" onChange={(e)=>{
                 setTime(e.target.value);
@@ -121,7 +123,7 @@ export default function calc(){
                     {
                         check == false ? 
                         <div>
-                            <p style={{"marginLeft": "20px"}}>{data}</p>
+                            <h1 style={{"marginLeft": "20px", "fontSize":"180px", "textAligin":"center", "width":"100%"}}>{data}</h1>
                         </div>:<Loading></Loading>
                     }
                 </div>
